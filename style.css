@@ -1,0 +1,127 @@
+*{
+    background-color: cornflowerblue;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1.5rem;
+}
+
+.header nav {
+    padding: 16px;
+    color: white;
+    background-color: black;
+}
+
+.header p {
+    padding: 0px 15px 0px 15px;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+footer{
+    position: absolute bottom;
+    display: block;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    font-size: 0;
+    margin-top: auto;
+}
+
+.logo{
+    height: 35px; width: auto;
+    padding: 0;
+    margin: 0px 3px;
+}
+
+/* The below begins the Home Pag styling */
+
+
+.home-body {
+    background-color: black;
+    flex-wrap: wrap;
+    border: 5px solid;
+    height: 1000px;
+    margin:  0px 50px 3px 50px;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.home-body p {
+    background-color: black;
+    color: white;
+}
+
+#profile {
+    height: 400px; width: auto;
+    float: right;
+    margin: 0px 15px;
+}
+
+/* The below begins the About Page styling */
+
+.about {
+    height: 300px;
+    background-color: black;
+    border: 15px solid;
+}
+
+.about-p{
+    height: 100px;
+    width: 60%;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+}
+
+.about-me {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* The below begins the Portfolio Page styling */
+
+.port{
+    height: 200px;
+    width: 60%;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+.port-img {
+    height: 300px;
+    background-color: black;
+}
+
+.portfolio{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    border: 15px solid;
+}
+
+
